@@ -1,0 +1,93 @@
+body {
+  font-family: Abel, "Times New Roman", Times, serif;
+}
+.banner {
+  display: flex;
+  position: absolute;
+  z-index: -1;
+}
+
+nav ul {
+  display: flex;
+  position: relative;
+  list-style: none;
+  background-color: black;
+}
+nav li {
+  color: white;
+  box-shadow: 15px;
+  font-size: 28px;
+  padding-right: 15px;
+}
+nav {
+  display: flex;
+  position: relative;
+  height: 900px;
+}
+h1 {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  font-size: 48px;
+  align-items: center;
+  padding-top: 250px;
+}
+
+.boxsection {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 100px;
+  border: red;
+  flex-flow: column;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6,
+.item-7 {
+  height: 300px;
+}
+.item-1 {
+  background: rgb(118, 206, 255);
+  width: 400px;
+  height: 300px;
+}
+
+.item-2 {
+  background: rgb(142, 214, 255);
+  width: 350px;
+}
+
+.item-3 {
+  background: rgb(164, 233, 255);
+  width: 300px;
+}
+.item-4 {
+  background: rgb(142, 214, 255);
+  width: 230px;
+}
+
+.item-5 {
+  background: rgb(202, 252, 255);
+  width: 150px;
+}
+
+.item-6 {
+  background: rgb(142, 214, 255);
+  width: 100px;
+}
+.item-7 {
+  background: rgb(193, 240, 255);
+  width: 70px;
+}
+
+.boxsectionTwo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px;
+  background-color: red;
+  flex-flow: column;
+}
