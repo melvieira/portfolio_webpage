@@ -1,6 +1,7 @@
 body {
   font-family: Abel, "Times New Roman", Times, serif;
 }
+
 .banner {
   display: flex;
   position: absolute;
@@ -11,83 +12,87 @@ nav ul {
   display: flex;
   position: relative;
   list-style: none;
-  background-color: black;
+  background-color: rgb(175, 240, 245);
 }
 nav li {
-  color: white;
+  color: black;
   box-shadow: 15px;
   font-size: 28px;
+  font-weight: bolder;
   padding-right: 15px;
 }
 nav {
   display: flex;
   position: relative;
-  height: 900px;
+  height: 800px;
+  padding: 25px;
 }
 h1 {
   display: flex;
   position: relative;
   z-index: 2;
   font-size: 48px;
-  align-items: center;
-  padding-top: 250px;
+  color: black;
+  background-color: rgb(175, 240, 245);
+  padding: 5px;
+  width: 900px;
 }
 
+.headersection {
+  margin-top: 350px;
+}
+
+.midsection {
+  width: 1700px;
+  padding-top: 50px;
+}
+
+h2 {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 30px;
+}
 .boxsection {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: 100px;
-  border: red;
-  flex-flow: column;
+  grid-template-columns: repeat(4, 1fr);
+  width: 1700px;
 }
 
 .item-1,
 .item-2,
 .item-3,
 .item-4,
-.item-5,
-.item-6,
-.item-7 {
-  height: 300px;
-}
-.item-1 {
-  background: rgb(118, 206, 255);
-  width: 400px;
-  height: 300px;
-}
-
-.item-2 {
-  background: rgb(142, 214, 255);
-  width: 350px;
-}
-
-.item-3 {
-  background: rgb(164, 233, 255);
-  width: 300px;
-}
-.item-4 {
-  background: rgb(142, 214, 255);
-  width: 230px;
-}
-
 .item-5 {
-  background: rgb(202, 252, 255);
-  width: 150px;
+  background: rgb(175, 240, 245);
+  width: 350px;
+  height: 355px;
+  margin: 20px;
 }
 
-.item-6 {
-  background: rgb(142, 214, 255);
-  width: 100px;
-}
-.item-7 {
-  background: rgb(193, 240, 255);
-  width: 70px;
+footer {
+  width: 1700px;
+  padding-top: 50px;
 }
 
-.boxsectionTwo {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 100px;
-  background-color: red;
-  flex-flow: column;
+footer ul {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  list-style: none;
+  background-color: rgb(175, 240, 245);
+}
+
+footer li {
+  color: black;
+  box-shadow: 15px;
+  font-size: 28px;
+  padding: 30px;
+}
+
+footer span {
+  font-weight: bolder;
 }
