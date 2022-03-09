@@ -8,12 +8,23 @@ body {
   z-index: -1;
 }
 
+.topsection img {
+  width: 100%;
+}
+
+.topsection {
+  height: 800px;
+  margin-bottom: 200px;
+}
+
 nav ul {
   display: flex;
   position: relative;
   list-style: none;
   background-color: rgb(175, 240, 245);
+  padding: 10px;
 }
+
 nav li {
   color: black;
   box-shadow: 15px;
@@ -24,26 +35,24 @@ nav li {
 nav {
   display: flex;
   position: relative;
-  height: 800px;
   padding: 25px;
 }
+
 h1 {
   display: flex;
   position: relative;
-  z-index: 2;
+  align-items: flex-end;
   font-size: 48px;
   color: black;
   background-color: rgb(175, 240, 245);
   padding: 5px;
-  width: 900px;
-}
-
-.headersection {
-  margin-top: 350px;
+  width: 800px;
+  height: 200px;
+  margin-top: 250px;
+  margin-left: 500px;
 }
 
 .midsection {
-  width: 1700px;
   padding-top: 50px;
 }
 
@@ -59,7 +68,6 @@ p {
 .boxsection {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  width: 1700px;
 }
 
 .item-1,
@@ -74,7 +82,6 @@ p {
 }
 
 footer {
-  width: 1700px;
   padding-top: 50px;
 }
 
