@@ -1,28 +1,21 @@
 body {
   font-family: Abel, "Times New Roman", Times, serif;
 }
-
-.banner {
-  display: flex;
-  position: absolute;
-  z-index: -1;
+a {
+  color: black;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in;
 }
-
-.topsection img {
-  width: 100%;
+a:hover {
+  font-size: 35px;
 }
-
-.topsection {
-  height: 800px;
-  margin-bottom: 200px;
-}
-
 nav ul {
   display: flex;
   position: relative;
   list-style: none;
   background-color: rgb(175, 240, 245);
   padding: 10px;
+  align-items: flex-start;
 }
 
 nav li {
@@ -30,36 +23,56 @@ nav li {
   box-shadow: 15px;
   font-size: 28px;
   font-weight: bolder;
-  padding-right: 15px;
+  padding-right: 20px;
 }
 nav {
   display: flex;
   position: relative;
+
   padding: 25px;
 }
 
 h1 {
   display: flex;
   position: relative;
-  align-items: flex-end;
-  font-size: 48px;
+  font-size: 40px;
   color: black;
   background-color: rgb(175, 240, 245);
   padding: 5px;
-  width: 800px;
-  height: 200px;
-  margin-top: 250px;
-  margin-left: 500px;
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 100px;
+  margin-top: 75px;
 }
 
-.midsection {
-  padding-top: 50px;
+img {
+  border-radius: 5%;
+  width: 100%;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 38px;
   display: flex;
   justify-content: center;
+  margin-top: 50px;
+}
+.techSkills {
+  text-align: center;
+  justify-content: center;
+}
+
+.skill-1,
+.skill-2,
+.skill-3,
+.skill-4,
+.skill-5 {
+  background: rgb(175, 240, 245);
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  min-width: fit-content;
+  margin: 15px;
+  padding: 10px;
 }
 
 p {
@@ -76,9 +89,9 @@ p {
 .item-4,
 .item-5 {
   background: rgb(175, 240, 245);
-  width: 350px;
-  height: 355px;
-  margin: 20px;
+  min-width: 300px;
+  height: 300px;
+  margin: 15px;
 }
 
 footer {
@@ -102,4 +115,9 @@ footer li {
 
 footer span {
   font-weight: bolder;
+}
+
+.top {
+  padding: 20px;
+  margin-bottom: 60px;
 }
