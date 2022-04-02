@@ -83,12 +83,17 @@ p {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.item {
+  font-size: 30px;
+  text-align: center;
+  width: 400px;
+}
+
 .item-1,
 .item-2,
 .item-3,
 .item-4,
 .item-5 {
-  background: rgb(175, 240, 245);
   min-width: 300px;
   height: 300px;
   margin: 15px;
