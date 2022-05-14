@@ -80,6 +80,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 .item {
   font-size: 30px;
@@ -93,8 +94,10 @@ p {
 .item-4,
 .item-5 {
   min-width: 300px;
-  height: 300px;
+  height: 320px;
   margin: 15px;
+  padding: 30px;
+  background-color: rgb(175, 240, 245);
 }
 
 footer {
@@ -106,14 +109,15 @@ footer ul {
   position: relative;
   justify-content: center;
   list-style: none;
-  background-color: rgb(175, 240, 245);
+
 }
 
 footer li {
   color: black;
   box-shadow: 15px;
   font-size: 28px;
-  padding: 30px;
+  padding: 20px;
+  background-color: rgb(175, 240, 245);
 }
 
 footer span {
